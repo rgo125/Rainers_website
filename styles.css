@@ -1,0 +1,92 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.7;
+    }
+  }
+
+@keyframes jump {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* optional: slight slide up */
+      }
+      to {
+        opacity: 0.7;
+        transform: translateY(0);
+      }
+}
+
+@keyframes hover-jump {
+    from {
+        opacity: 0.7;
+        transform: translateY(0px); /* optional: slight slide up */
+      }
+      to {
+        opacity: 1.0;
+        transform: translateY(-10px);
+      }
+}
+
+/* Base state (before animation starts) */
+h1.fade-in {
+    opacity: 0;
+    animation: fadeIn 3s ease-out forwards; /* "forwards" keeps final state */
+    animation-delay: 0.2s; /* Optional: stagger */
+  }
+
+button.fade-in {
+    opacity: 0;
+    animation: fadeIn 3s ease-out forwards; /* "forwards" keeps final state */
+    animation-delay: 0.2s; /* Optional: stagger */
+    opacity: 0;
+    animation: fadeIn 3s ease-out forwards;
+    animation-delay: 3s;
+  }
+  
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    background: linear-gradient(to bottom, #8cc2ff,#c000ca);
+    
+}
+
+/* Style the heading */
+h1 {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 300;
+    position: relative;
+    bottom: 40px;
+    font-size: 10rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.glass-button{
+    all: unset; /* resets almost everything */
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    bottom: 150px;
+    background-color: #fbfbfb2b;
+    border-radius: 100px;
+    font-size: 2rem;
+    color: #fbfbfb;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px 40px;
+}
+
+button:hover{
+    animation: hover-jump 0.5s ease-out forwards;
+}

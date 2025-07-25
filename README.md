@@ -2,7 +2,7 @@
 
 A modern, interactive portfolio website built with Three.js featuring 3D rotating project cards, custom metaballs demo, and smooth physics-based navigation.
 
-## 🌟 Features
+## Features
 
 - **3D Interactive Interface**: Six project cards arranged in a semicircle that rotate around an invisible X-axis rod
 - **Scroll Physics**: Advanced scroll-based physics system with magnetic snapping and threshold-based navigation
@@ -17,6 +17,9 @@ A modern, interactive portfolio website built with Three.js featuring 3D rotatin
 - **Scroll Wheel**: Navigate between projects with physics-based momentum
 - **Magnetic Snapping**: Projects automatically snap to center when stopping
 - **Threshold System**: Build up scroll force to break magnetic hold and skip between projects
+
+![Demo](gifs/scroll.gif)
+
 
 ### Arrow Controls
 - **Up Arrow (▲)**: Navigate to previous project

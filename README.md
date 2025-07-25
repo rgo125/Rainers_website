@@ -7,7 +7,7 @@ A modern, interactive portfolio website built with Three.js featuring 3D rotatin
 - **3D Interactive Interface**: Six project cards arranged in a semicircle that rotate around an invisible X-axis rod
 - **Scroll Physics**: Advanced scroll-based physics system with magnetic snapping and threshold-based navigation
 - **Custom 3D Models**: Uses custom GLB models (`card.glb`, `text_box.glb`) for enhanced visual appeal
-- ****Note**** These are temporary place models that I am using as placeholders. I plan on replcaing them with actual project info.
+- **"**"Note"**"** These are temporary place models that I am using as placeholders. I plan on replcaing them with actual project info.
 - **Smooth Navigation**: Navigate between projects using mouse wheel or navigation arrows
 - **Responsive Design**: Fully responsive layout that works across different screen sizes
 - **Modern Typography**: Uses the elegant Satoshi font family for clean, professional text

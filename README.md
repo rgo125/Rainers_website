@@ -6,12 +6,12 @@ A modern, interactive portfolio website built with Three.js featuring 3D rotatin
 
 - **3D Interactive Interface**: Six project cards arranged in a semicircle that rotate around an invisible X-axis rod
 - **Scroll Physics**: Advanced scroll-based physics system with magnetic snapping and threshold-based navigation
-- **Custom 3D Models**: Uses custom GLB models (`card.glb`, `text_box.glb`) for enhanced visual appeal
+- **Custom 3D Models**: Uses custom GLB models (`card.glb`, `text_box.glb`) for enhanced visual appeal **Note** These are temporary place models that I am using as placeholders. I plan on replcaing them with actual project info.
 - **Smooth Navigation**: Navigate between projects using mouse wheel or navigation arrows
 - **Responsive Design**: Fully responsive layout that works across different screen sizes
 - **Modern Typography**: Uses the elegant Satoshi font family for clean, professional text
 
-## 🎮 Navigation
+## Navigation
 
 ### Mouse Controls
 - **Scroll Wheel**: Navigate between projects with physics-based momentum
@@ -38,7 +38,7 @@ Rainers_3js_website/
         └── WEB/            # Web-optimized font files
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Three.js r128**: 3D graphics and rendering engine
 - **GLTF Loader**: For loading custom 3D models
@@ -47,7 +47,7 @@ Rainers_3js_website/
 - **CSS3**: Modern styling with gradients, backdrop filters, and animations
 - **Satoshi Font**: Premium typography for enhanced visual appeal
 
-## 🎨 Visual Features
+## Visual Features
 
 ### Lighting System
 - **Multi-layered Lighting**: Ambient, directional, and accent lighting
@@ -64,7 +64,7 @@ Rainers_3js_website/
 - **Tone Mapping**: ACES Filmic tone mapping for cinematic look
 - **Anti-aliasing**: MSAA for smooth edges and professional quality
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Modern web browser with WebGL support
@@ -95,17 +95,7 @@ Rainers_3js_website/
 
 *Requires WebGL 1.0 support (available in all modern browsers)*
 
-## 🎯 Current Portfolio Projects
-
-The portfolio currently showcases 6 placeholder projects:
-1. **Project One** - Web application showcase
-2. **Project Two** - Data visualization/API integration
-3. **Project Three** - Technical expertise demonstration
-4. **Project Four** - Problem-solving focused project
-5. **Project Five** - Creative implementation showcase
-6. **Project Six** - Latest and most advanced work
-
-## 🔧 Customization
+## Customization
 
 ### Adding New Projects
 1. Update the `projectData` array in `script.js` (around line 481)
@@ -122,7 +112,7 @@ The portfolio currently showcases 6 placeholder projects:
 - **Lighting**: Modify light setup in the `addLights()` function
 - **Camera**: Adjust camera position and field of view in `init()`
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 This portfolio emphasizes:
 - **Smooth User Experience**: Fluid animations and responsive interactions
@@ -131,14 +121,12 @@ This portfolio emphasizes:
 - **Accessibility**: Clear navigation and readable typography
 - **Professional Presentation**: Showcase technical skills through implementation
 
-## 📄 License
+## License
 
 This project uses the Satoshi font family under the Font Face License (FFL). See `Satoshi_Complete/License/FFL.txt` for details.
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork this project and adapt it for your own portfolio. The codebase is well-documented and modular for easy customization.
 
 ---
-
-*Built with ❤️ by Rainer using Three.js and modern web technologies* 

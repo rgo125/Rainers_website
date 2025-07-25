@@ -18,13 +18,15 @@ A modern, interactive portfolio website built with Three.js featuring 3D rotatin
 - **Magnetic Snapping**: Projects automatically snap to center when stopping
 - **Threshold System**: Build up scroll force to break magnetic hold and skip between projects
 
-![Demo](gifs/scroll.gif)
+![Scroll](gifs/scroll.gif)
 
 
 ### Arrow Controls
 - **Up Arrow (▲)**: Navigate to previous project
 - **Down Arrow (▼)**: Navigate to next project
 - **Auto-hiding**: Arrows automatically hide when reaching first/last project
+
+![Button](gifs/buttons.gif)
 
 ## 📁 Project Structure
 
